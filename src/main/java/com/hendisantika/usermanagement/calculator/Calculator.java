@@ -2,6 +2,7 @@ package com.hendisantika.usermanagement.calculator;
 
 public class Calculator {
 
+    String numero ;
     public int add(int a, int b) {
         return a + b;
     }

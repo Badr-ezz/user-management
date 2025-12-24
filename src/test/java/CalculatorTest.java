@@ -13,9 +13,7 @@ class CalculatorTest {
         calculator = new Calculator();
     }
 
-    // =====================
-    // Cas normaux
-    // =====================
+
 
     @Test
     void testAddition() {
@@ -41,9 +39,7 @@ class CalculatorTest {
         assertEquals(5, result);
     }
 
-    // =====================
-    // Cas limites
-    // =====================
+
 
     @Test
     void testAdditionWithZero() {
@@ -63,9 +59,7 @@ class CalculatorTest {
         assertEquals(0, result);
     }
 
-    // =====================
-    // Exceptions
-    // =====================
+
 
     @Test
     void testDivisionByZeroThrowsException() {
